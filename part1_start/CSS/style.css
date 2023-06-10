@@ -1,0 +1,106 @@
+/* Ans : 2 */
+/* Setting the background image for the body */
+body {
+    background-image: url(../Assest/photo-1685731880079-dc735ec4e004.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*using filter 1*/
+    filter: opacity(90%);
+}
+
+/* Class selector for the wrapper div */
+div.wrapper {
+    border: 2px solid #a8e0ff6b;
+    width: 80vw;
+    /* Task 5: Setting the width of the div.wrapper to 80% of the viewport width */
+    background-color: #a8e0ff6b;
+    box-sizing: border-box;
+    border-radius: 2%;
+    padding: 25px;
+    box-shadow: 10px 0 20px rgba(66, 15, 235, 0.638);
+}
+
+/* Selector for the header within the wrapper div */
+.wrapper > header {
+    width: 90%;
+    margin: 0 auto;
+    /* Task 6: Set the header to 90% of div.wrapper and center it within the .wrapper div */
+    
+}
+
+/* CSS3 pseudo-class selector */
+/* Applying bold font weight to odd list items */
+ul > li:nth-child(odd) {
+    font-weight: bold;
+}
+
+/* Universal selector */
+/* Setting color to floralwhite for specific elements */
+body, h1, h2, h3, ul, li, footer {
+    color: #000000;
+}
+
+/* Selector for header within div within body */
+body > div > header {
+    display: flex;
+    justify-content: center;
+} 
+
+/* Selector for h2 within main */
+main > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Element selector with descendant selector */
+/* Styling the profile image section */
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the image within the profile image section */
+.profile-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 15%;
+    box-sizing: border-box;
+    border: 2px solid #091ced;
+    /* Task 3: Apply filter effect to the image */
+    /*using filter 2*/
+    filter: brightness(90%);
+    
+}
+
+/* Styling for paragraph elements */
+p {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for span elements */
+span {
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Styling for h3 elements */
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Styling for ul and li elements */
+ul, li {
+    list-style: inside;
+}
+
+/* Styling for hr elements */
+hr {
+    width: 80%;
+    height: 2px;
+    background-color: #091ced;
+    border: none;
+}
